@@ -1,12 +1,12 @@
-# docker-sfdx-cli
- 
-Dockerfile to create basic image for use with SalesforceDX on CircleCI.
+Example: executing a shell script from your source
 
-Lightweight Docker image using node alpine.
+https://cloud.google.com/cloud-build/docs/create-custom-build-steps
 
-Includes:
-jq for shell JSON parsing
-gettext for text file processing
-ca-certificates, openssl for test result and artifact storage on CircleCI
-openssh for CircleCI SSH access
-SalesforceDX CLI from NPM
+
+
+https://cloud.google.com/cloud-build/docs/quickstart-docker
+
+
+1. follow docker quickstart to get CMD output text
+2. get sfdx cli installed and print sfdx -h
+3. encrypt jwt token and get dev org details returned via cli
